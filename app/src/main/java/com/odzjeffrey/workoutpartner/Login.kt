@@ -29,7 +29,7 @@ class Login : AppCompatActivity() {
         btnSignUp = findViewById(R.id.btnSignUp)
 
         this.registerForContextMenu(btnSignUp)
-
+//this is a text to test branching concepts
         btnSignUp.setOnClickListener{
             val intent = Intent(this@Login, SignUp::class.java)
             startActivity(intent)
