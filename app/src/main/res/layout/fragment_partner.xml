@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PartnerFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.5" />
+
+        <TextView
+            android:id="@+id/button"
+            android:layout_width="100dp"
+            android:clickable="true"
+            android:layout_height="100dp"
+            android:layout_marginBottom="32dp"
+            android:text="@string/code_create_unique"
+            android:textColor="@color/black"
+            android:gravity="bottom|center_horizontal"
+            android:background="@drawable/room_background"
+            app:layout_constraintBottom_toTopOf="@+id/guideline"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+
+        <TextView
+            android:id="@+id/button2"
+            android:layout_width="100dp"
+            android:clickable="true"
+            android:layout_height="100dp"
+            android:layout_marginStart="64dp"
+            android:layout_marginTop="32dp"
+            android:gravity="center_horizontal|bottom"
+            android:background="@drawable/online_background"
+            android:text="@string/connect_online"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/guideline" />
+
+        <TextView
+            android:id="@+id/button3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:clickable="true"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="64dp"
+            android:gravity="center_horizontal|bottom"
+            android:text="@string/Pair_with_a_friend"
+            android:textColor="@color/black"
+            android:background="@drawable/friend_background"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/guideline" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

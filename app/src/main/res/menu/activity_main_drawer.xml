@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_profile"
+            android:title="@string/menu_profile" />
+        <item
+            android:id="@+id/customise"
+            android:icon="@drawable/ic_customise"
+            android:title="@string/menu_customise" />
+        <item
+            android:id="@+id/chats"
+            android:icon="@drawable/ic_chats"
+            android:title="@string/menu_chats" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/ic_share"
+            android:title="@string/share"/>
+    </group>
+    <item android:title="@string/achievements" android:checkable="false"/>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/badges"
+            android:icon="@drawable/ic_badges"
+            android:title="@string/badges"/>
+        <item
+            android:id="@+id/streaks"
+            android:icon="@drawable/ic_streaks"
+            android:title="@string/streaks"/>
+        <item
+            android:id="@+id/watchAd"
+            android:icon="@drawable/ic_watchad"
+            android:title="@string/ads"/>
+    </group>
+</menu>

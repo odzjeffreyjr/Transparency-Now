@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "568012009313",
+    "firebase_url": "https://workout-partner-d0061-default-rtdb.firebaseio.com",
+    "project_id": "workout-partner-d0061",
+    "storage_bucket": "workout-partner-d0061.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:568012009313:android:d25855fe5d456b8e505f20",
+        "android_client_info": {
+          "package_name": "com.odzjeffrey.workoutpartner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "568012009313-q3tbh4f7nmbh5l4epufiumkaah25g4gq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALe7xzufWj9uA56taQIjytUInCn6eC834"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "568012009313-q3tbh4f7nmbh5l4epufiumkaah25g4gq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
