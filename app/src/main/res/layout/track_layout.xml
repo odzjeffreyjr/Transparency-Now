@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/postItemTopToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            app:cardCornerRadius="20dp">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:id="@+id/postProfilePicture"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/postUsername"
+            android:layout_height="wrap_content"
+            android:text="Author name"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginEnd="20dp"
+            android:layout_gravity="center_vertical|end"
+            />
+    </androidx.appcompat.widget.Toolbar>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background="@drawable/techwallpaper"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/postItemTopToolbar"
+        android:layout_marginTop="5dp"
+        android:id="@+id/postImageView"/>
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/postItemBottomToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/postImageView">
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/postTitle"
+            android:clickable="true"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical|start"
+            android:text="Placeholder"
+            android:textSize="28sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/postItemBottomToolbar" />
+    </androidx.appcompat.widget.Toolbar>
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/postItemMessageBox"
+        android:clickable="true"
+        android:layout_marginStart="18dp"
+        android:textStyle="italic"
+        android:layout_height="wrap_content"
+        android:text="Placeholder text"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/postItemBottomToolbar" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/postItemMessageBox"
+        android:background="@color/greySecondary"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
