@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_primary_dark">#000000</color>
-    <color name="purple_primary">#212121</color>
-    <color name="purple_primary_light">#484848</color>
-    <color name="greySecondary">#607d8b</color>
-    <color name="greySecondaryLight">#8eacbb</color>
-    <color name="greySecondaryDark">#34515e</color>
+   /
+    <color name="greySecondary">#0277bd</color>
+    <color name="greySecondaryLight">#80d8ff</color>
+    <color name="greySecondaryDark">#01579b</color>
     <color name="black">#000000</color>
     <color name="white">#FFFFFF</color>
     <color name="orange">#FF5105</color>
-    <color name="ic_launcher_background">#ffffff</color>
+    <color name="ic_launcher_background">#8ca35c</color>
+    <color name="grey_primary">#607d8b</color>
+    <color name="grey_primary_light">#8eacbb</color>
+    <color name="grey_primary_dark">#34515e</color>
 
 </resources>

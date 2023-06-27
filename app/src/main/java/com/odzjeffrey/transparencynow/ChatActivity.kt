@@ -1,4 +1,4 @@
-package com.odzjeffrey.workoutpartner
+package com.odzjeffrey.transparencynow
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity

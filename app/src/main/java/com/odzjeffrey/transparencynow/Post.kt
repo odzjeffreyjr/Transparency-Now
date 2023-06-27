@@ -1,7 +1,4 @@
-package com.odzjeffrey.workoutpartner
-
-import android.net.Uri
-import android.widget.Button
+package com.odzjeffrey.transparencynow
 
 class Post {
     var postUsername: String? = null

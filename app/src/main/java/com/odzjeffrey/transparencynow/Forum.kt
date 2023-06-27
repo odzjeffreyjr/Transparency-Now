@@ -1,4 +1,4 @@
-package com.odzjeffrey.workoutpartner
+package com.odzjeffrey.transparencynow
 
 class Forum {
     var topic: String? = null

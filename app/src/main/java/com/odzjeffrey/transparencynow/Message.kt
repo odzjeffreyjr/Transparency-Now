@@ -1,4 +1,4 @@
-package com.odzjeffrey.workoutpartner
+package com.odzjeffrey.transparencynow
 
 class Message {
     var message: String? = null

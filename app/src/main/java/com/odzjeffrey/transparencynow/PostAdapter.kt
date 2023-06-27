@@ -1,15 +1,12 @@
-package com.odzjeffrey.workoutpartner
+package com.odzjeffrey.transparencynow
 
 import android.content.Context
-import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.google.firebase.auth.FirebaseAuth
-import com.odzjeffrey.workoutpartner.User
 
 class PostAdapter(val context: Context, private val postList: ArrayList<Post>): RecyclerView.Adapter<PostAdapter.ViewHolder>() {
 

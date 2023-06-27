@@ -1,4 +1,4 @@
-package com.odzjeffrey.workoutpartner
+package com.odzjeffrey.transparencynow
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,7 +8,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.widget.ImageView
 import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
-import com.odzjeffrey.workoutpartner.SectionsPagerAdapter
 
 private lateinit var mDrawerLayout: DrawerLayout
 private lateinit var viewPager: ViewPager

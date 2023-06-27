@@ -20,6 +20,8 @@
             android:layout_height="wrap_content"
             android:clickable="true"
             app:cardCornerRadius="20dp"
+            android:backgroundTint="@color/ic_launcher_background"
+            android:background="@color/ic_launcher_background"
             android:id="@+id/backButtonChatActivity">
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
@@ -28,13 +30,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/imageBack"
+                    android:background="@color/ic_launcher_background"
                     android:src="@drawable/ic_arrow_back"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
                 <ImageView
-                    android:layout_width="55dp"
-                    android:layout_height="55dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
                     android:src="@drawable/logo"
                     app:layout_constraintStart_toEndOf="@id/imageBack"
                     app:layout_constraintTop_toTopOf="parent"

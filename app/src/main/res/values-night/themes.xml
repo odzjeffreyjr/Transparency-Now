@@ -2,8 +2,8 @@
     <!-- Base application theme. -->
     <style name="Theme.WorkoutPartner" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_primary_dark</item>
-        <item name="colorPrimaryVariant">@color/purple_primary_dark</item>
+        <item name="colorPrimary">@color/grey_primary_dark</item>
+        <item name="colorPrimaryVariant">@color/grey_primary_dark</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/greySecondaryLight</item>
@@ -16,8 +16,8 @@
 
     <style name="Theme.WorkoutPartner.Chats" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_primary_dark</item>
-        <item name="colorPrimaryVariant">@color/purple_primary_dark</item>
+        <item name="colorPrimary">@color/grey_primary_dark</item>
+        <item name="colorPrimaryVariant">@color/grey_primary_dark</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/greySecondary</item>

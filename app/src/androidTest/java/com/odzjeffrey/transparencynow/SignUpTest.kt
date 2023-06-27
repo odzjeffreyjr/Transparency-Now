@@ -1,4 +1,4 @@
-package com.odzjeffrey.workoutpartner
+package com.odzjeffrey.transparencynow
 
 import androidx.test.espresso.Espresso.*
 import androidx.test.espresso.action.ViewActions

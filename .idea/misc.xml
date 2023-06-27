@@ -7,20 +7,31 @@
         <entry key="..\:/Users/T490/AndroidStudioProjects/workoutpartner/app/src/main/res/drawable/button_background.xml" value="0.1945" />
         <entry key="..\:/Users/T490/AndroidStudioProjects/workoutpartner/app/src/main/res/drawable/et_background.xml" value="0.1945" />
         <entry key="..\:/Users/T490/AndroidStudioProjects/workoutpartner/app/src/main/res/drawable/friend_background.xml" value="0.1755" />
+        <entry key="..\:/Users/T490/AndroidStudioProjects/workoutpartner/app/src/main/res/drawable/ic_baseline_info_24.xml" value="0.124" />
+        <entry key="..\:/Users/T490/AndroidStudioProjects/workoutpartner/app/src/main/res/drawable/ic_outline_chat_bubble_outline_24.xml" value="0.1965" />
+        <entry key="..\:/Users/T490/AndroidStudioProjects/workoutpartner/app/src/main/res/drawable/ic_watchad.xml" value="0.124" />
+        <entry key="..\:/Users/T490/AndroidStudioProjects/workoutpartner/app/src/main/res/drawable/line.xml" value="0.1" />
         <entry key="..\:/Users/T490/AndroidStudioProjects/workoutpartner/app/src/main/res/drawable/message_box_background.xml" value="0.1945" />
         <entry key="..\:/Users/T490/AndroidStudioProjects/workoutpartner/app/src/main/res/drawable/online_background.xml" value="0.1755" />
         <entry key="..\:/Users/T490/AndroidStudioProjects/workoutpartner/app/src/main/res/drawable/room.xml" value="0.203" />
-        <entry key="..\:/Users/T490/AndroidStudioProjects/workoutpartner/app/src/main/res/layout/activity_login.xml" value="0.18432971014492755" />
+        <entry key="..\:/Users/T490/AndroidStudioProjects/workoutpartner/app/src/main/res/layout/activity_chat.xml" value="0.1983695652173913" />
+        <entry key="..\:/Users/T490/AndroidStudioProjects/workoutpartner/app/src/main/res/layout/activity_chats.xml" value="0.25" />
+        <entry key="..\:/Users/T490/AndroidStudioProjects/workoutpartner/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Users/T490/AndroidStudioProjects/workoutpartner/app/src/main/res/layout/activity_main.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/T490/AndroidStudioProjects/workoutpartner/app/src/main/res/layout/activity_sign_up.xml" value="0.18614130434782608" />
         <entry key="..\:/Users/T490/AndroidStudioProjects/workoutpartner/app/src/main/res/layout/content_main.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/T490/AndroidStudioProjects/workoutpartner/app/src/main/res/layout/fragment_community.xml" value="0.18614130434782608" />
-        <entry key="..\:/Users/T490/AndroidStudioProjects/workoutpartner/app/src/main/res/layout/fragment_partner.xml" value="0.2" />
-        <entry key="..\:/Users/T490/AndroidStudioProjects/workoutpartner/app/src/main/res/layout/fragment_workouts.xml" value="0.18614130434782608" />
+        <entry key="..\:/Users/T490/AndroidStudioProjects/workoutpartner/app/src/main/res/layout/fragment_partner.xml" value="0.22" />
+        <entry key="..\:/Users/T490/AndroidStudioProjects/workoutpartner/app/src/main/res/layout/fragment_workouts.xml" value="0.16" />
+        <entry key="..\:/Users/T490/AndroidStudioProjects/workoutpartner/app/src/main/res/layout/nav_header_nav_drawer.xml" value="0.33" />
+        <entry key="..\:/Users/T490/AndroidStudioProjects/workoutpartner/app/src/main/res/layout/post_item.xml" value="0.21256038647342995" />
         <entry key="..\:/Users/T490/AndroidStudioProjects/workoutpartner/app/src/main/res/layout/received.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/T490/AndroidStudioProjects/workoutpartner/app/src/main/res/layout/sent.xml" value="0.17074275362318841" />
-        <entry key="..\:/Users/T490/AndroidStudioProjects/workoutpartner/app/src/main/res/layout/user_layout.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/T490/AndroidStudioProjects/workoutpartner/app/src/main/res/layout/track_layout.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/T490/AndroidStudioProjects/workoutpartner/app/src/main/res/layout/user_layout.xml" value="0.25" />
         <entry key="..\:/Users/T490/AndroidStudioProjects/workoutpartner/app/src/main/res/layout/workout_item.xml" value="0.18614130434782608" />
+        <entry key="..\:/Users/T490/AndroidStudioProjects/workoutpartner/app/src/main/res/menu/activity_main_drawer.xml" value="0.33" />
+        <entry key="..\:/Users/T490/AndroidStudioProjects/workoutpartner/app/src/main/res/menu/menu_main.xml" value="0.22" />
         <entry key="..\:/Users/T490/AndroidStudioProjects/workoutpartner/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
         <entry key="..\:/Users/phyn axel/AndroidStudioProjects/workoutpartner/app/src/main/res/drawable/message_box_background.xml" value="0.1945" />
         <entry key="..\:/Users/phyn axel/AndroidStudioProjects/workoutpartner/app/src/main/res/drawable/side_nav_bar.xml" value="0.1945" />

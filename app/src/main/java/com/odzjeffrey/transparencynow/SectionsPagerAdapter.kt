@@ -1,13 +1,10 @@
-package com.odzjeffrey.workoutpartner
+package com.odzjeffrey.transparencynow
 
 import android.content.Context
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
-import com.odzjeffrey.workoutpartner.CommunityFragment
-import com.odzjeffrey.workoutpartner.PartnerFragment
-import com.odzjeffrey.workoutpartner.R
-import com.odzjeffrey.workoutpartner.WorkoutsFragment
+import com.odzjeffrey.transparencynow.R
 
 private val TAB_TITLES = arrayOf(
     R.string.tab_text_1,

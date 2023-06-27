@@ -13,9 +13,9 @@
             android:icon="@drawable/ic_customise"
             android:title="@string/menu_customise" />
         <item
-            android:id="@+id/chats"
+            android:id="@+id/forums"
             android:icon="@drawable/ic_chats"
-            android:title="@string/menu_chats" />
+            android:title="@string/menu_forums" />
     </group>
 
     <group android:checkableBehavior="single">
@@ -24,19 +24,23 @@
             android:icon="@drawable/ic_share"
             android:title="@string/share"/>
     </group>
-    <item android:title="@string/achievements" android:checkable="false"/>
+    <item android:title="@string/connect" android:checkable="false"/>
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/badges"
-            android:icon="@drawable/ic_badges"
-            android:title="@string/badges"/>
+            android:id="@+id/contactUs"
+            android:icon="@drawable/ic_baseline_phonelink_ring_24"
+            android:title="@string/contactUs"/>
         <item
-            android:id="@+id/streaks"
-            android:icon="@drawable/ic_streaks"
+            android:id="@+id/aboutUs"
+            android:icon="@drawable/ic_baseline_info_24"
             android:title="@string/streaks"/>
         <item
-            android:id="@+id/watchAd"
+            android:id="@+id/youTube"
             android:icon="@drawable/ic_watchad"
-            android:title="@string/ads"/>
+            android:title="@string/youTube"/>
+        <item
+            android:id="@+id/supportUs"
+            android:icon="@drawable/ic_baseline_monetization_on_24"
+            android:title="@string/supportUs"/>
     </group>
 </menu>

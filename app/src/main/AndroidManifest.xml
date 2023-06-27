@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.odzjeffrey.workoutpartner">
+    package="com.odzjeffrey.transparencynow">
 
     <uses-permission android:name="android.permission.INTERNET"/>
 
@@ -16,20 +16,20 @@
         android:theme="@style/Theme.WorkoutPartner"
         tools:targetApi="31">
         <activity
-            android:name=".ChatsActivity"
+            android:name="com.odzjeffrey.transparencynow.ChatsActivity"
             android:exported="false" />
         <activity
-            android:name=".ChatActivity"
+            android:name="com.odzjeffrey.transparencynow.ChatActivity"
             android:exported="false"
             android:theme="@style/Theme.WorkoutPartner.NoActionBar"/>
         <activity
-            android:name=".SignUp"
+            android:name="com.odzjeffrey.transparencynow.SignUp"
             android:exported="false" />
         <activity
-            android:name=".Login"
+            android:name="com.odzjeffrey.transparencynow.Login"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.odzjeffrey.transparencynow.MainActivity"
             android:exported="true"
             android:theme="@style/Theme.WorkoutPartner.NoActionBar">
             <intent-filter>
