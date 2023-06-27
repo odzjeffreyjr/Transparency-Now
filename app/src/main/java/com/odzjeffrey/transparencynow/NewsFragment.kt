@@ -32,7 +32,7 @@ class CommunityFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        var view = inflater.inflate(R.layout.fragment_community, container, false)
+        val view = inflater.inflate(R.layout.fragment_news, container, false)
         list = initPostList()
         rv = view.findViewById<RecyclerView>(R.id.rvCommunity)!!
         rv.adapter = context?.let { PostAdapter(it, list) }
@@ -51,7 +51,7 @@ class CommunityFragment : Fragment() {
         val h = Post(R.drawable.postpic8, R.drawable.profilepic1, "SEBC", "Transparency Now: The bold Vision for accountability in Africa", "Transparency Now is now operating in over 40 African countries. Our Bold mission for Africa identifies lack of accountability as...")
         val i = Post(R.drawable.postpic9, R.drawable.profilepic6, "Transparency Now", "Transparency around the week: October Report", "Download the Weekly Accountability Report on all the data that has been collected by Transparency Now or continue in Web Browser.")
         val j = Post(R.drawable.postpic10, R.drawable.profilepic3, "Huffle Posteur", "Transparency around the week: November Report", "Download the Weekly Accountability Report on all the data that has been collected by Transparency Now or continue in Web Browser.")
-        var returnList = ArrayList<Post>()
+        val returnList = ArrayList<Post>()
         returnList.add(a)
         returnList.add(b)
         returnList.add(c)

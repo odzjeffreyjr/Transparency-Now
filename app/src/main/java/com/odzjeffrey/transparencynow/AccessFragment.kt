@@ -38,7 +38,7 @@ class PartnerFragment : Fragment(), AdapterView.OnItemSelectedListener {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val view = inflater.inflate(R.layout.fragment_partner, container, false)
+        val view = inflater.inflate(R.layout.fragment_access, container, false)
         chatButton = view.findViewById<FloatingActionButton>(R.id.floatingActionButtonTab2)
         categorySpinner = view.findViewById<Spinner>(R.id.categorySpinner)
         dateSpinner = view.findViewById<Spinner>(R.id.monthSpinner)
@@ -74,7 +74,7 @@ class PartnerFragment : Fragment(), AdapterView.OnItemSelectedListener {
         val e = "2025"
         val f = "2024"
         val g = "2023"
-        var returnList = ArrayList<String>()
+        val returnList = ArrayList<String>()
         returnList.add(a)
         returnList.add(b)
         returnList.add(c)
@@ -99,7 +99,7 @@ class PartnerFragment : Fragment(), AdapterView.OnItemSelectedListener {
         val j = "October"
         val k = "November"
         val l =  "December"
-        var returnList = ArrayList<String>()
+        val returnList = ArrayList<String>()
         returnList.add(a)
         returnList.add(b)
         returnList.add(c)
@@ -124,7 +124,7 @@ class PartnerFragment : Fragment(), AdapterView.OnItemSelectedListener {
         val e = "Public procurement"
         val f = "Bank statement"
         val g = "Contract"
-        var returnList = ArrayList<String>()
+        val returnList = ArrayList<String>()
         returnList.add(a)
         returnList.add(b)
         returnList.add(c)

@@ -3,6 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/T490/AndroidStudioProjects/transparencynow/app/src/main/res/layout/activity_chats.xml" value="0.1983695652173913" />
+        <entry key="..\:/Users/T490/AndroidStudioProjects/transparencynow/app/src/main/res/layout/fragment_community.xml" value="0.1983695652173913" />
+        <entry key="..\:/Users/T490/AndroidStudioProjects/transparencynow/app/src/main/res/layout/fragment_partner.xml" value="0.1983695652173913" />
+        <entry key="..\:/Users/T490/AndroidStudioProjects/transparencynow/app/src/main/res/layout/fragment_workouts.xml" value="0.1983695652173913" />
+        <entry key="..\:/Users/T490/AndroidStudioProjects/transparencynow/app/src/main/res/layout/workout_item.xml" value="0.1983695652173913" />
         <entry key="..\:/Users/T490/AndroidStudioProjects/workoutpartner/app/src/main/res/drawable/btn_background.xml" value="0.1945" />
         <entry key="..\:/Users/T490/AndroidStudioProjects/workoutpartner/app/src/main/res/drawable/button_background.xml" value="0.1945" />
         <entry key="..\:/Users/T490/AndroidStudioProjects/workoutpartner/app/src/main/res/drawable/et_background.xml" value="0.1945" />
